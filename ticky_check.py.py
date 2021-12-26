@@ -102,7 +102,7 @@ def main():
         save_to_csv(users_stats_to_list, "user_statistics.csv",
                     ["Username", "INFO", "ERROR"])
         save_to_csv(errors_count_to_list,
-                    "errors_message.csv", ["Error", "Count"])
+                    "error_message.csv", ["Error", "Count"])
         print("Files successfully created")
         sys.exit(0)
     except IndexError:
